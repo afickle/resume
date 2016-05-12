@@ -18,7 +18,7 @@ module.exports = {
     },
     section_names: {
         "education": {
-            "ch": "教育经历",
+            "ch": "教育与实践经历",
             "en": "Education"
         },
         "language": {
