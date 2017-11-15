@@ -9,24 +9,19 @@
     "phone": "15384027093",
     "email": "ayfickle@gmail.com",
     "wechat": {
-      "id": "fickle",
+      "id": "ayfickle666",
       "qrcode": "static/weixin.jpg"
     },
-    "sinaweibo": {
-      "id": "aspnooy",
-      "url": "http://weibo.com/3233612314"
-    },
     "github": {
-      "id": "afickle"
+      "id": "ayfickle"
     }
   },
   "links": [{
     "type": "repo",
-    "url": "https://github.com/afickle/profile"
+    "url": "https://github.com/ayfickle/profile"
   }, {
     "type": "pdf",
     "url": "static/joyeecheung.pdf"
-
   }],
   "education": [{
     "type": "undergraduate",
@@ -39,7 +34,6 @@
       "2013 - 2013 年度**校三好学生**",
       "2014.5 校优秀志愿者干部",
       "2014.8 中国好软件**初赛三等奖**",
-      "2014.10 梦缘支教社会实践院优秀队伍",
       "2014.11 院十佳大学生",
       "2015.4 服务外包大赛**校二等奖**"
     ]
@@ -47,15 +41,30 @@
   "experience": [{
     "type": "internship",
     "techtype": "frontend",
+    "place": "天天快递有限公司",
+    "start": "2016.06",
+    "end": "至今",
+    "name": "Web前端开发工程师",
+    "description": [
+      " `AngularJs` + `RequireJs` + `Angular-ui-router` 编写业务逻辑",
+      "根据业务需求，完成`Angular`自定义组件开发",
+      "通过`Stats.js`监控页面渲染以及服务切换，调试接口数据",
+      "使用 `gulp` 打包部署工程项目",
+      "独自完成产品迭代以及新需求的开发"
+    ],
+    "stack": ["AngularJs", "requireJs", "ui-router"],
+    "compatibility": "IE8+"
+  }, {
+    "type": "internship",
+    "techtype": "frontend",
     "place": "杭州突维网络技术有限公司",
     "start": "2015.11",
-    "end": "至今",
+    "end": "2016.05",
     "name": "Web前端开发",
     "description": [
       "独立完成产品活动页面的前端开发并配合移动端",
       "协作完成基于微信的快海淘商城的前端开发以及日常迭代",
       "调整移动APP页面的开发与调试",
-      "使用 `Handlebars` 模板进行数据处理以及页面内容的显示,利用缓存对页面状态的保存以及更新",
       "配合后台，完成用户在页面的操作行为统计"
     ],
     "stack": ["bootstrap", "jquery", "handbar"],
@@ -66,7 +75,7 @@
     "place": "云卷云舒信息技术有限公司",
     "start": "2015.07",
     "end": "2015.09",
-    "name": "前端开发",
+    "name": "前端开发(实习)",
     "description": [
       "对基于 `AppCan` 开发的混合App的前端页面改版以及优化",
       "与客户沟通调整装+项目的需求,同时与设计讨论确定页面的交互设计",
@@ -80,7 +89,7 @@
     "place": "杭为科技有限公司",
     "start": "2014.11",
     "end": "2015.06",
-    "name": "前端开发实习生",
+    "name": "前端开发(实习)",
     "description": [
       "参与基于微信家园信息类的前端二次开发，使用 `jQuery UI` 与 `Bootstrap` 实现前端组件及数据交互",
       "使用 `artTemplate` 模板引擎配合 `requireJs` 开发会友行项目的PC端页面",
@@ -129,12 +138,20 @@
     }, {
       "summary": "前端工程实践",
       "description": [
+        "熟练 `AngularJs`（`1.5.3版本-`）的*MS系统的实践",
         "了解 `React` / `Vue.js` 及前端 `MV*` 模型并有相关项目实践",
         "熟悉 `jQuery` / `jQuery UI` / `Bootstrap` 的使用、定制, 阅读过部分源代码",
         "在个人实践使用过 `Less` 预处理工具",
         "了解部分前端兼容性问题、性能优化知识与技巧，并能在项目中加以实践"
       ]
     }]
+  }, {
+    "type": "backend",
+    "item": [
+      "`jekyll` + `github` 博客系统（https://ayfickle.github.io）",
+      "`AngularJs(v1.5.3-)` + `RequireJs` + `gulp` 构建WMS/OMS等管理系统",
+      "`Jade`、`ES6`、`webpack`相关的demo"
+    ]
   }, {
     "type": "miscellaneous",
     "item": [

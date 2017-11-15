@@ -66,8 +66,13 @@ mixin skills_frontend(item)
   +skills_basic(item)(attributes)
 
 
+//- mixin skills_backend(item)
+//-   +skills_basic(item)(attributes)
 mixin skills_backend(item)
-  +skills_basic(item)(attributes)
+    ul.skills-description.skills-backend.timeline-content
+      each desc in item.item
+        li.skills-item-description
+          span!= highlight(desc)
 
 
 mixin skills_miscellaneous(item)
@@ -75,7 +80,6 @@ mixin skills_miscellaneous(item)
       each desc in item.item
         li.skills-item-description
           span!= highlight(desc)
-
 
 mixin experience_title_job(item)
   span.experience-place= item.place
